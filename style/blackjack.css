@@ -13,3 +13,35 @@ h3{
     display: inline;
     padding-right: 40px;
 }
+
+.currentHand{
+    float:left;
+}
+
+#btnDeal{
+    float:left;
+}
+
+#btnHit, #btnStick, #btnRestart, #result{
+    display: none;
+    float: left;
+}
+
+.lose{
+    color: red;
+}
+
+.win{
+    color: green;
+}
+
+#result{
+    display:none;
+    position:absolute;
+    top: 100px;
+    left: 20px;
+}
+#result > img {
+    width: 500px;
+    height: 250px;
+}
